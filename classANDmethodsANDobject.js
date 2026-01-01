@@ -35,12 +35,21 @@ let stu = new Student();
 
 // Accessing 'methods' of a 'class' using created 'object'
 stu.setDetails();
+
+
+
+// let(keyword) stu(object): Student(class)*****
+// (method) Student.display(): void*****
 stu.display();
 
 // Accessing 'method' which has arguments
 stu.setDetails1(999, "Prashanth", "F");
 stu.display();
 
+
+
+// var console: Console*****
+// (method) Console.log(...data: any[]): void*****
 console.log("*********************************************")
 
 // Accessing 'global variables' of a class using created 'object'

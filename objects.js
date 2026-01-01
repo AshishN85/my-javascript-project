@@ -10,6 +10,16 @@ let person = {
 
 // Accessing Object properties
 console.log(person["firstName"])
+
+// module person
+// let person: {
+//     firstName: string;
+//     lastName: string;
+//     age: number;
+//     weight: number;
+//     active: boolean;
+//     "e-mail": string;
+// }
 console.log(person.age)
 console.log(person.active)
 console.log(person["e-mail"])

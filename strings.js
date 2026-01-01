@@ -18,7 +18,11 @@ console.log(su.replace("JavaScript", "Python"))
 
 console.log("********************************************************************")
 
+
+
 // substring()
+// let(keyword) su(variable): string(class)*****
+// (method) String.substring(start: number, end?: number | undefined): string*****
 console.log(su.substring(11, 15))
 
 console.log("********************************************************************")
