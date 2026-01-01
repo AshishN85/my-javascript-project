@@ -11,6 +11,12 @@ class Student {
         display() {
         console.log(this.sID, this.sName, this.sGrade)
     }
+
+    //     constructor() {         //SyntaxError: A class may only have one constructor
+    //     this.sID = 654;
+    //     this.sName = "Crazy";
+    //     this.sGrade = 'M'
+    // }
 }
 
 // Calling a 'constructor' method while 'object' creation only
