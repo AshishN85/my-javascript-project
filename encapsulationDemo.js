@@ -61,7 +61,7 @@ class Student {
     }
 
     setMarks(marks) {
-        if(marks >= 0 && marks <= 100){ // validation example
+        if(marks >= 0 && marks <= 100){         // validation example
             this.#marks = marks;
         } else {
             console.log("Invalid marks!");
@@ -73,7 +73,7 @@ let stu = new Student();
 stu.setName("John");
 stu.setMarks(90);
 
-console.log(stu.getName());  // John
-console.log(stu.getMarks()); // 90
+console.log(stu.getName());  
+console.log(stu.getMarks()); 
 
 // stu.#name = "Hacker"; // ❌ Error! Cannot access private field
