@@ -1,3 +1,5 @@
+// OOPs concept
+
 // Creating a 'class'
 class Student {
 
@@ -61,3 +63,9 @@ stu2.display();
 
 stu3.setDetails1(97, "Naveen", "C");
 stu3.display();
+
+console.log("********************************************************************")
+
+console.log(stu2.firstName)
+console.log(stu2.lastName)
+console.log(stu2.age)

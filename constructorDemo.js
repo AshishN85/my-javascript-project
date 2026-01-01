@@ -1,4 +1,5 @@
-// Creating a 'class'
+// OOPs concept
+
 class Student {
 
     // Creating a 'constructor'
