@@ -48,3 +48,5 @@ console.log(companyData["address"].streetAddress)
 // let obj = JSON.parse(jsonString);
 
 // console.log(obj.employees[1].name);
+
+// ==================================== COMPLETED =============================================
