@@ -1,3 +1,5 @@
+// #6
+
 // A 'Function' created outside the 'Object' is called a function.
 // A 'Function' created inside the 'Object' is called a method.
 

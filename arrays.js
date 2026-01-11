@@ -1,3 +1,5 @@
+// #8
+
 let cars = ['volvo', "BMW", 'Benz', "Audi"]
 
 // let cars = new Array('volvo', "BMW", 'Benz', "Audi")

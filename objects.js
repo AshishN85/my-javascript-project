@@ -1,3 +1,5 @@
+// #7
+
 // Creating a object
 let person = {
     firstName : "Ashish",
