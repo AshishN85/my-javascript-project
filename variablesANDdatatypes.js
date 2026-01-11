@@ -32,3 +32,15 @@ console.log(typeof(m))
 console.log(typeof(n))
 console.log(typeof(lastName))
 console.log(typeof(middleName))
+
+var xyz = 20
+var xyz = "Ashish"
+console.log(xyz)
+
+let mnp = 20
+// let mnp = "Ashish"
+console.log(mnp)
+
+const pqr = 20
+// pqr = "Ashish"      TypeError: Assignment to constant variable.
+console.log(pqr)
