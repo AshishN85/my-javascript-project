@@ -1,5 +1,6 @@
 // #1
 
+// Dynamically typed programming language
 // Primitive Data Types
 
 //multi-line

@@ -12,6 +12,7 @@
 //Relational or Comparison Operators => ==, ===, !=, !==, >, <, >=, <=, ?
 
 //Logical Operators => &&, ||, !
+
 let x = 22, y = 10;
 console.log(x + y)
 console.log(x - y)
@@ -58,6 +59,16 @@ console.log(p > q)
 console.log(p < q)
 console.log(p >= q)
 console.log(p <= q)
+
+console.log("=================================================================")
+
+let r = 100, s = "100"
+console.log(r == s)
+console.log(r != s)
+console.log(r === s)
+console.log(r !== s)
+
+console.log("=================================================================")
 
 // Ternary Operator
 console.log(p < q ? p : q)      // it will print 'q' value as condition is 'False'
