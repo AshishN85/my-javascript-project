@@ -13,5 +13,5 @@ console.log(d.getSeconds())     // 0 - 59
 
 console.log("********************************************************************")
 
-console.log(d.getDate() + "/" + d.getMonth() + 1 + "/" + d.getFullYear());
+console.log(d.getDate() + "/" + (d.getMonth() + 1) + "/" + d.getFullYear());
 console.log(d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds());
