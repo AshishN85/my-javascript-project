@@ -62,3 +62,25 @@ switch(weekDay) {
     case "Saturday" : console.log(7); break;
     default : console.log("Invalid week name you have provided.")
 }
+
+console.log("***********************************")
+
+// Nested if statements
+let num = 9;
+if(num <10) {
+    if(num < 9) {
+        console.log("num is less than 9 and 10");
+    }
+    else {
+        console.log("num is less than 10 but not less than 9");
+    }
+}
+
+// Because "if" is not a loop. So, it will execute only once. It will not execute infinitely.
+if(true) {
+    console.log("This will always execute")
+}
+
+if(false) {
+    console.log("This will never execute")
+}

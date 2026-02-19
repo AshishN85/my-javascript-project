@@ -110,3 +110,23 @@ console.log(employee.bonus());
 console.log("*****************************")
 console.log(employee.access);
 console.log(employee.access());
+
+console.log("********************************************************************")
+
+// Nested Object
+let student = {
+    name : "Ravi",
+    age : 20,
+    course : "MCA",
+    college : {
+        name : "Osmania University",
+        city : "Hyderabad",
+        state : "Telangana",
+        subjects : {mth: "Maths", cs: "Computer Science", eng: "English"}
+    }
+}
+
+console.log(student.college)
+console.log(student.college.city)
+console.log(student.college.subjects.cs)
+console.log(student.college.subject?.eng) // Optional chaining operator (?.) is used to access the property of an object that may be null or undefined. It prevents runtime errors by returning undefined instead of throwing an error if the property does not exist.

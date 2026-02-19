@@ -71,8 +71,13 @@ console.log(r !== s)
 console.log("=================================================================")
 
 // Ternary Operator
+// condition ? expression1(true) : expression2(false)
 console.log(p < q ? p : q)      // it will print 'q' value as condition is 'False'
 console.log(p > q ? p : q)      // it will print 'p' value as condition is 'True'
+
+let purchase = 20;
+let discount = purchase > 100 ? 10 : 0;
+console.log(discount)
 
 console.log("=================================================================")
 

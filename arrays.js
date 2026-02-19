@@ -54,13 +54,15 @@ console.log("*******************************************************************
 // Length of an array
 let fruits = ["Banana", "Orange", 'kiwi', 'apple', "grapes", 'jackfruit', "pineapple"];
 console.log(fruits.length);
+console.log(fruits[fruits.length - 1])   // last element of an array
+console.log(fruits.length - 1)     // last index of an array
 
 console.log("********************************************************************")
 
 
 
 // for-of loop***
-for(energy of fruits) {
+for(let energy of fruits) {
     console.log(energy)      
 }
 
@@ -78,8 +80,9 @@ console.log("*******************************************************************
 
 // Array Methods:-
 console.log(myArray.toString());
-console.log(myArray.join("*"));
+console.log("********************************************************************")
 
+console.log(myArray.join("*"));
 console.log("********************************************************************")
 
 // pop()
@@ -136,4 +139,36 @@ console.log("*******************************************************************
 
 // reverse()
 console.log(fruits.reverse())       // created a new array
-console.log("After reversing array elements are: " + fruits)  
+console.log("After reversing array elements are: " + fruits)    // Capital letter is given importance here
+
+console.log("********************************************************************")
+
+// Nested arrays
+let myArr = [12, true, "Ashish", [24, false, 'Q', [12.34, "Naidu"]]];
+console.log(myArr[3][3][1])
+
+console.log("********************************************************************")
+
+// indexOf()
+console.log(fruits.indexOf("grapes"))
+console.log(fruits.indexOf("banana"))     // -1 means element is not present in an array
+
+console.log("********************************************************************")
+
+// includes()
+console.log(fruits.includes("grapes"))
+console.log(fruits.includes("banana"))     // false means element is not present in an array
+
+console.log("********************************************************************")
+
+// splice() - to add or remove elements from an array
+console.log(fruits.splice(2, 3))     // created a new array
+console.log(fruits)
+console.log(fruits.splice(1, 2, "kiwi", "melon", "papaya"))     // created a new array
+console.log(fruits)
+
+console.log("********************************************************************")
+
+// slice() - to extract a portion of an array and return a new array
+console.log(fruits.slice(1, 4))     // created a new array
+console.log(fruits)
