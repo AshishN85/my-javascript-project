@@ -37,7 +37,7 @@ console.log(person)
 console.log("********************************************************************")
 
 // Update existing property value
-person["weight"] = 63.5;
+person["weight"] = 67.5;
 person.age = 40;
 
 console.log(person)
@@ -90,7 +90,7 @@ let employee = {
             // The 'this' keyword is used to access properties of the same object.
             return((this.empSalary * 10)/100)
     },
-    access : function () {
+    access : () => {
                 if (this.empStatus === true) {
             return {
                 name: this.empName,
