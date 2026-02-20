@@ -1,3 +1,5 @@
+// Extras - #3
+
 // Map, Filter and Reduce are three powerful array methods in JavaScript 
 // that allow you to manipulate and transform arrays in different ways.
 

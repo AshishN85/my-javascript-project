@@ -1,3 +1,5 @@
+// Extras - #4
+
 // Error handling in JavaScript
 // JavaScript provides a way to handle errors gracefully using try...catch...finally statements.
 

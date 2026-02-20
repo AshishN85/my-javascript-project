@@ -1,3 +1,5 @@
+// Extras - #2
+
 // Converting one datatype to another is called Type Conversion or Type Casting. 
 // It can be done in two ways:
 // 1. Implicit Type Conversion (Type Coercion)
