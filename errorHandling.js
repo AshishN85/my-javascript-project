@@ -9,7 +9,7 @@ try {
     console.log(z)  // ReferenceError: z is not defined 
 } catch (error) {
     console.log("An error occurred: " + error)
-    console.log(error.name)  // ReferenceError
+    console.log(error.name)
     console.log(error.message)
 } finally {
     console.log("This block will always execute")
@@ -29,4 +29,12 @@ try {
 } catch (error) {
     console.log(error.name)  // AshishError
     console.log(error.message)
+}
+
+//=============================================================================
+
+try {
+  await page.click('#submit');
+} catch (err) {
+  console.log("Button not found!");
 }
